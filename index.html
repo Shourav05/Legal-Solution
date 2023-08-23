@@ -8,6 +8,10 @@
   <!-- tailwind and daisy ui set up -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +23,8 @@
     .font-poppins {
       font-family: 'Poppins', sans-serif;
     }
-    .font-eb{
+
+    .font-eb {
       font-family: 'EB Garamond', serif;
     }
   </style>
@@ -125,6 +130,7 @@
       </div>
     </div>
     <!-- end navbar section -->
+
     <!-- start banner section -->
     <div class="hero min-h-screen" style="background-image: url(./images/banner.png);">
       <div class="hero-overlay bg-opacity-60"></div>
@@ -132,9 +138,11 @@
         <div class="max-w-2xl">
           <h1 class="mb-5 font-eb text-7xl font-extrabold">We Provide Effective Legal Solutions</h1>
           <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority
-            <br> have suffered alteration in some form, by injected humour.</p>
+            <br> have suffered alteration in some form, by injected humour.
+          </p>
           <div class="flex gap-6 justify-center">
-            <input type="text" placeholder="Search your services" class="input input-bordered font-poppins text-black w-full max-w-xs" />
+            <input type="text" placeholder="Search your services"
+              class="input input-bordered font-poppins text-black w-full max-w-xs" />
             <button class="btn font-poppins bg-[#B68C5A] text-white">Search</button>
           </div>
         </div>
@@ -142,8 +150,90 @@
     </div>
     <!-- end banner section -->
   </header>
-  <main>
-
+  <main class="max-w-screen-xl mx-auto my-28">
+    <!-- start legal practice area section -->
+    <section>
+      <h1 class="text-5xl font-extrabold font-eb text-center mb-6">The Legal Practice Area</h1>
+      <p class="text-center font-poppins mb-16">There are many variations of passages of Lorem Ipsum available, but the
+        majority have
+        <br> suffered alteration in some form, by injected humour.
+      </p>
+      <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <!-- card-1 -->
+        <div class="card hover:shadow-xl">
+          <figure><img src="./images/business.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="text-center text-3xl font-eb font-extrabold">Business Law</h2>
+            <p class="font-poppins text-center">There are many variations of passages of Lorem Ipsum available, but the
+              majority have suffered alteration in some form, by injected humour.</p>
+            <div class="text-center">
+              <i class="fa-solid fa-circle-arrow-right text-[#B68C5A]"></i>
+            </div>
+          </div>
+        </div>
+        <!-- card-2 -->
+        <div class="card hover:shadow-xl">
+          <figure><img src="./images/criminal.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="text-center text-3xl font-eb font-extrabold">Criminal Law</h2>
+            <p class="font-poppins text-center">There are many variations of passages of Lorem Ipsum available, but the
+              majority have suffered alteration in some form, by injected humour.</p>
+            <div class="text-center">
+              <i class="fa-solid fa-circle-arrow-right text-[#B68C5A]"></i>
+            </div>
+          </div>
+        </div>
+        <!-- card-3 -->
+        <div class="card hover:shadow-xl">
+          <figure><img src="./images/child.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="text-center text-3xl font-eb font-extrabold">Child Support</h2>
+            <p class="font-poppins text-center">There are many variations of passages of Lorem Ipsum available, but the
+              majority have suffered alteration in some form, by injected humour.</p>
+            <div class="text-center">
+              <i class="fa-solid fa-circle-arrow-right text-[#B68C5A]"></i>
+            </div>
+          </div>
+        </div>
+        <!-- card-4 -->
+        <div class="card hover:shadow-xl">
+          <figure><img src="./images/education.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="text-center text-3xl font-eb font-extrabold">Education Law</h2>
+            <p class="font-poppins text-center">There are many variations of passages of Lorem Ipsum available, but the
+              majority have suffered alteration in some form, by injected humour.</p>
+            <div class="text-center">
+              <i class="fa-solid fa-circle-arrow-right text-[#B68C5A]"></i>
+            </div>
+          </div>
+        </div>
+        <!-- card-5 -->
+        <div class="card hover:shadow-xl">
+          <figure><img src="./images/divorce.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="text-center text-3xl font-eb font-extrabold">Divorce Law</h2>
+            <p class="font-poppins text-center">There are many variations of passages of Lorem Ipsum available, but the
+              majority have suffered alteration in some form, by injected humour.</p>
+            <div class="text-center">
+              <i class="fa-solid fa-circle-arrow-right text-[#B68C5A]"></i>
+            </div>
+          </div>
+        </div>
+        <!-- card-6 -->
+        <div class="card hover:shadow-xl">
+          <figure><img src="./images/tax.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="text-center text-3xl font-eb font-extrabold">Tax Law</h2>
+            <p class="font-poppins text-center">There are many variations of passages of Lorem Ipsum available, but the
+              majority have suffered alteration in some form, by injected humour.</p>
+            <div class="text-center">
+              <i class="fa-solid fa-circle-arrow-right text-[#B68C5A]"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end legal practice area section -->
   </main>
   <footer>
 
